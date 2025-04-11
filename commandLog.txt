@@ -1,0 +1,2 @@
+for i in bedGraph/*.bedGraph; do base="${i%.*}"; echo $base; filename="${base##*/}"; echo $filename; bedGraphToBigWig $i ../../zebrafinch/class/chromosome.size bw/${filename}.bw;  done
+

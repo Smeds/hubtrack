@@ -1,0 +1,270 @@
+track ZebraFinchLoganSearchResult
+type bigWig
+container multiWig
+autoScale on
+shortLabel Zebra Finch: class
+longLabel Zebra Finch grouped by class
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+	
+	track Aves
+	shortLabel Aves
+	longLabel Aves
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Aves.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 230,159,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track NA
+	shortLabel NA
+	longLabel NA
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/NA.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 86,180,233
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Mammalia
+	shortLabel Mammalia
+	longLabel Mammalia
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Mammalia.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 0,158,115
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Magnoliopsida
+	shortLabel Magnoliopsida
+	longLabel Magnoliopsida
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Magnoliopsida.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 240,228,66
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Insecta
+	shortLabel Insecta
+	longLabel Insecta
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Insecta.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 0,114,178
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Actinopteri
+	shortLabel Actinopteri
+	longLabel Actinopteri
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Actinopteri.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 213,94,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Lepidosauria
+	shortLabel Lepidosauria
+	longLabel Lepidosauria
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Lepidosauria.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 204,121,167
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Hydrozoa
+	shortLabel Hydrozoa
+	longLabel Hydrozoa
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Hydrozoa.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 153,153,153
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Gammaproteobacteria
+	shortLabel Gammaproteobacteria
+	longLabel Gammaproteobacteria
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Gammaproteobacteria.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 173,255,47
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Malacostraca
+	shortLabel Malacostraca
+	longLabel Malacostraca
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Malacostraca.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 255,105,180
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Flasuviricetes
+	shortLabel Flasuviricetes
+	longLabel Flasuviricetes
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Flasuviricetes.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 135,206,250
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Papovaviricetes
+	shortLabel Papovaviricetes
+	longLabel Papovaviricetes
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Papovaviricetes.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 106,90,205
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Herviviricetes
+	shortLabel Herviviricetes
+	longLabel Herviviricetes
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Herviviricetes.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 255,215,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Cephalopoda
+	shortLabel Cephalopoda
+	longLabel Cephalopoda
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Cephalopoda.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 64,224,208
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Gastropoda
+	shortLabel Gastropoda
+	longLabel Gastropoda
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Gastropoda.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 220,20,60
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Trematoda
+	shortLabel Trematoda
+	longLabel Trematoda
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Trematoda.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 139,69,19
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Aconoidasida
+	shortLabel Aconoidasida
+	longLabel Aconoidasida
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Aconoidasida.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 0,206,209
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Clostridia
+	shortLabel Clostridia
+	longLabel Clostridia
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Clostridia.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 218,112,214
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Arachnida
+	shortLabel Arachnida
+	longLabel Arachnida
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Arachnida.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 34,139,34
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Chlamydiia
+	shortLabel Chlamydiia
+	longLabel Chlamydiia
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Chlamydiia.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 138,43,226
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Monjiviricetes
+	shortLabel Monjiviricetes
+	longLabel Monjiviricetes
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Monjiviricetes.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 230,159,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Conoidasida
+	shortLabel Conoidasida
+	longLabel Conoidasida
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Conoidasida.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 86,180,233
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Tectiliviricetes
+	shortLabel Tectiliviricetes
+	longLabel Tectiliviricetes
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Tectiliviricetes.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 0,158,115
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Chondrichthyes
+	shortLabel Chondrichthyes
+	longLabel Chondrichthyes
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Chondrichthyes.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 240,228,66
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Insthoviricetes
+	shortLabel Insthoviricetes
+	longLabel Insthoviricetes
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Insthoviricetes.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 0,114,178
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Pisoniviricetes
+	shortLabel Pisoniviricetes
+	longLabel Pisoniviricetes
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Pisoniviricetes.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 213,94,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Tolucaviricetes
+	shortLabel Tolucaviricetes
+	longLabel Tolucaviricetes
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Tolucaviricetes.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 204,121,167
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Chromadorea
+	shortLabel Chromadorea
+	longLabel Chromadorea
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Chromadorea.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 153,153,153
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Bivalvia
+	shortLabel Bivalvia
+	longLabel Bivalvia
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Bivalvia.bw
+	type bigWig
+	parent ZebraFinchLoganSearchResult on
+	color 173,255,47
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html

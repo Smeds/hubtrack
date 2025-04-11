@@ -1,0 +1,6 @@
+hub ZebraFinchLoganSearchclass
+shortLabel Zebra Finch: class
+longLabel Logan search data for Zebra Finch grouped by class
+genomesFile genomes.txt
+email pks5769@psu.edu
+descriptionUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main//ZebraFinch/class/description.html
