@@ -1,9 +1,8 @@
 track ZebraFinchLoganSearchResultv2
-type bigWig
-autoScale on
-shortLabel Zebra Finch class2
-longLabel Zebra Finch grouped by class v2
 compositeTrack on
+type bigWig
+shortLabel Zebra Finch class composite
+longLabel Zebra Finch grouped by class v2
 showSubtrackColorOnUi on
 maxHeightPixels 500:100:8
 	
