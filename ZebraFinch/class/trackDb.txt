@@ -1,14 +1,15 @@
 track ZebraFinchLoganSearchResult
 type bigWig
 container multiWig
-autoScale on
 shortLabel Zebra Finch: class
 longLabel Zebra Finch grouped by class
+autoScale on
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 500:100:8
 	
 	track Aves
+	autoScale on
 	shortLabel Aves
 	longLabel Aves
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Aves.bw
@@ -18,6 +19,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track NA
+	autoScale on
 	shortLabel NA
 	longLabel NA
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/NA.bw
@@ -27,6 +29,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Mammalia
+	autoScale on
 	shortLabel Mammalia
 	longLabel Mammalia
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Mammalia.bw
@@ -36,6 +39,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Magnoliopsida
+	autoScale on
 	shortLabel Magnoliopsida
 	longLabel Magnoliopsida
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Magnoliopsida.bw
@@ -45,6 +49,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Insecta
+	autoScale on
 	shortLabel Insecta
 	longLabel Insecta
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Insecta.bw
@@ -54,6 +59,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Actinopteri
+	autoScale on
 	shortLabel Actinopteri
 	longLabel Actinopteri
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Actinopteri.bw
@@ -63,6 +69,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Lepidosauria
+	autoScale on
 	shortLabel Lepidosauria
 	longLabel Lepidosauria
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Lepidosauria.bw
@@ -72,6 +79,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Hydrozoa
+	autoScale on
 	shortLabel Hydrozoa
 	longLabel Hydrozoa
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Hydrozoa.bw
@@ -81,6 +89,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Gammaproteobacteria
+	autoScale on
 	shortLabel Gammaproteobacteria
 	longLabel Gammaproteobacteria
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Gammaproteobacteria.bw
@@ -90,6 +99,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Malacostraca
+	autoScale on
 	shortLabel Malacostraca
 	longLabel Malacostraca
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Malacostraca.bw
@@ -99,6 +109,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Flasuviricetes
+	autoScale on
 	shortLabel Flasuviricetes
 	longLabel Flasuviricetes
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Flasuviricetes.bw
@@ -108,6 +119,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Papovaviricetes
+	autoScale on
 	shortLabel Papovaviricetes
 	longLabel Papovaviricetes
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Papovaviricetes.bw
@@ -117,6 +129,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Herviviricetes
+	autoScale on
 	shortLabel Herviviricetes
 	longLabel Herviviricetes
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Herviviricetes.bw
@@ -126,6 +139,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Cephalopoda
+	autoScale on
 	shortLabel Cephalopoda
 	longLabel Cephalopoda
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Cephalopoda.bw
@@ -135,6 +149,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Gastropoda
+	autoScale on
 	shortLabel Gastropoda
 	longLabel Gastropoda
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Gastropoda.bw
@@ -144,6 +159,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Trematoda
+	autoScale on
 	shortLabel Trematoda
 	longLabel Trematoda
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Trematoda.bw
@@ -153,6 +169,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Aconoidasida
+	autoScale on
 	shortLabel Aconoidasida
 	longLabel Aconoidasida
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Aconoidasida.bw
@@ -162,6 +179,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Clostridia
+	autoScale on
 	shortLabel Clostridia
 	longLabel Clostridia
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Clostridia.bw
@@ -171,6 +189,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Arachnida
+	autoScale on
 	shortLabel Arachnida
 	longLabel Arachnida
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Arachnida.bw
@@ -180,6 +199,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Chlamydiia
+	autoScale on
 	shortLabel Chlamydiia
 	longLabel Chlamydiia
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Chlamydiia.bw
@@ -189,6 +209,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Monjiviricetes
+	autoScale on
 	shortLabel Monjiviricetes
 	longLabel Monjiviricetes
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Monjiviricetes.bw
@@ -198,6 +219,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Conoidasida
+	autoScale on
 	shortLabel Conoidasida
 	longLabel Conoidasida
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Conoidasida.bw
@@ -207,6 +229,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Tectiliviricetes
+	autoScale on
 	shortLabel Tectiliviricetes
 	longLabel Tectiliviricetes
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Tectiliviricetes.bw
@@ -216,6 +239,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Chondrichthyes
+	autoScale on
 	shortLabel Chondrichthyes
 	longLabel Chondrichthyes
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Chondrichthyes.bw
@@ -225,6 +249,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Insthoviricetes
+	autoScale on
 	shortLabel Insthoviricetes
 	longLabel Insthoviricetes
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Insthoviricetes.bw
@@ -234,6 +259,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Pisoniviricetes
+	autoScale on
 	shortLabel Pisoniviricetes
 	longLabel Pisoniviricetes
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Pisoniviricetes.bw
@@ -243,6 +269,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Tolucaviricetes
+	autoScale on
 	shortLabel Tolucaviricetes
 	longLabel Tolucaviricetes
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Tolucaviricetes.bw
@@ -252,6 +279,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Chromadorea
+	autoScale on
 	shortLabel Chromadorea
 	longLabel Chromadorea
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Chromadorea.bw
@@ -261,6 +289,7 @@ maxHeightPixels 500:100:8
 	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
 	
 	track Bivalvia
+	autoScale on
 	shortLabel Bivalvia
 	longLabel Bivalvia
 	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/ZebraFinch/class/bw/Bivalvia.bw
