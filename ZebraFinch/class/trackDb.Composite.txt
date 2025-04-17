@@ -1,8 +1,8 @@
 track ZebraFinchLoganSearchResult
 type bigWig
-container multiWig
-shortLabel Zebra Finch: class
-longLabel Zebra Finch grouped by class
+compositeTrack on
+shortLabel Zebra Finch: class : Composite
+longLabel Zebra Finch grouped by class, Composite
 autoScale on
 aggregate transparentOverlay
 showSubtrackColorOnUi on

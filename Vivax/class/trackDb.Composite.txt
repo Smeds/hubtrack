@@ -1,0 +1,89 @@
+track VivaxLoganSearchResult
+type bigWig
+compositeTrack on
+shortLabel Vivax: class : Composite
+longLabel Vivax grouped by class, Composite
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+	
+	track Aconoidasida
+	autoScale on
+	shortLabel Aconoidasida
+	longLabel Aconoidasida
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/class/bw/Aconoidasida.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 230,159,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Mammalia
+	autoScale on
+	shortLabel Mammalia
+	longLabel Mammalia
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/class/bw/Mammalia.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 86,180,233
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Gammaproteobacteria
+	autoScale on
+	shortLabel Gammaproteobacteria
+	longLabel Gammaproteobacteria
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/class/bw/Gammaproteobacteria.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 0,158,115
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track NA
+	autoScale on
+	shortLabel NA
+	longLabel NA
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/class/bw/NA.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 240,228,66
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Alphaproteobacteria
+	autoScale on
+	shortLabel Alphaproteobacteria
+	longLabel Alphaproteobacteria
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/class/bw/Alphaproteobacteria.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 0,114,178
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Insecta
+	autoScale on
+	shortLabel Insecta
+	longLabel Insecta
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/class/bw/Insecta.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 213,94,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Saccharomycetes
+	autoScale on
+	shortLabel Saccharomycetes
+	longLabel Saccharomycetes
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/class/bw/Saccharomycetes.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 204,121,167
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Bacilli
+	autoScale on
+	shortLabel Bacilli
+	longLabel Bacilli
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/class/bw/Bacilli.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 153,153,153
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
