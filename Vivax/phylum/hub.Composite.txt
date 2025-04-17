@@ -1,5 +1,5 @@
 hub VivaxLoganSearchphylumComposite
-shortLabel Vivax: phylum
+shortLabel Vivax: phylum: composite
 longLabel Logan search data for Vivax grouped by phylum
 genomesFile genomes.Composite.txt
 email pks5769@psu.edu
