@@ -1,5 +1,5 @@
 hub VivaxLoganSearchclassComposite
-shortLabel Vivax: class
+shortLabel Vivax: class: composite
 longLabel Logan search data for Vivax grouped by class
 genomesFile genomes.Composite.txt
 email pks5769@psu.edu
