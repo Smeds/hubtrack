@@ -1,0 +1,6 @@
+hub VivaxLoganSearchorderComposite
+shortLabel Vivax: order
+longLabel Logan search data for Vivax grouped by order
+genomesFile genomes.Composite.txt
+email pks5769@psu.edu
+descriptionUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main//Vivax/order/description.html
