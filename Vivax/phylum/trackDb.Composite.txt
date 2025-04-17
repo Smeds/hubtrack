@@ -1,0 +1,89 @@
+track VivaxLoganSearchResult
+type bigWig
+compositeTrack on
+shortLabel Vivax: phylum : Composite
+longLabel Vivax grouped by phylum, Composite
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+	
+	track Apicomplexa
+	autoScale on
+	shortLabel Apicomplexa
+	longLabel Apicomplexa
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/phylum/bw/Apicomplexa.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 230,159,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Chordata
+	autoScale on
+	shortLabel Chordata
+	longLabel Chordata
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/phylum/bw/Chordata.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 86,180,233
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Pseudomonadota
+	autoScale on
+	shortLabel Pseudomonadota
+	longLabel Pseudomonadota
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/phylum/bw/Pseudomonadota.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 0,158,115
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Microsporidia
+	autoScale on
+	shortLabel Microsporidia
+	longLabel Microsporidia
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/phylum/bw/Microsporidia.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 240,228,66
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track NA
+	autoScale on
+	shortLabel NA
+	longLabel NA
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/phylum/bw/NA.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 0,114,178
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Arthropoda
+	autoScale on
+	shortLabel Arthropoda
+	longLabel Arthropoda
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/phylum/bw/Arthropoda.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 213,94,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Ascomycota
+	autoScale on
+	shortLabel Ascomycota
+	longLabel Ascomycota
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/phylum/bw/Ascomycota.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 204,121,167
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track Bacillota
+	autoScale on
+	shortLabel Bacillota
+	longLabel Bacillota
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/phylum/bw/Bacillota.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 153,153,153
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
