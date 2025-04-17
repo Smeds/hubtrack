@@ -1,0 +1,89 @@
+track VivaxLoganSearchResult
+type bigWig
+compositeTrack on
+shortLabel Vivax: assay_type : Composite
+longLabel Vivax grouped by assay_type, Composite
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+	
+	track WGS
+	autoScale on
+	shortLabel WGS
+	longLabel WGS
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/assay_type/bw/WGS.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 230,159,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track RNA-Seq
+	autoScale on
+	shortLabel RNA-Seq
+	longLabel RNA-Seq
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/assay_type/bw/RNA-Seq.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 86,180,233
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track WGA
+	autoScale on
+	shortLabel WGA
+	longLabel WGA
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/assay_type/bw/WGA.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 0,158,115
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track AMPLICON
+	autoScale on
+	shortLabel AMPLICON
+	longLabel AMPLICON
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/assay_type/bw/AMPLICON.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 240,228,66
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track WXS
+	autoScale on
+	shortLabel WXS
+	longLabel WXS
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/assay_type/bw/WXS.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 0,114,178
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track ChIP-Seq
+	autoScale on
+	shortLabel ChIP-Seq
+	longLabel ChIP-Seq
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/assay_type/bw/ChIP-Seq.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 213,94,0
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track OTHER
+	autoScale on
+	shortLabel OTHER
+	longLabel OTHER
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/assay_type/bw/OTHER.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 204,121,167
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html
+	
+	track miRNA-Seq
+	autoScale on
+	shortLabel miRNA-Seq
+	longLabel miRNA-Seq
+	bigDataUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main/Vivax/assay_type/bw/miRNA-Seq.bw
+	type bigWig
+	parent VivaxLoganSearchResult on
+	color 153,153,153
+	descriptionUrl https://raw.githubusercontent.com/Smeds/bigWigTest/refs/heads/main/description.html

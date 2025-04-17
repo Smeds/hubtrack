@@ -1,0 +1,6 @@
+hub VivaxLoganSearchassay_type
+shortLabel Vivax: assay_type
+longLabel Logan search data for Vivax grouped by assay_type
+genomesFile genomes.txt
+email pks5769@psu.edu
+descriptionUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main//Vivax/assay_type/description.html
