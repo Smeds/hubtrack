@@ -1,5 +1,5 @@
 hub VivaxLoganSearchorderComposite
-shortLabel Vivax: order
+shortLabel Vivax: order: composite
 longLabel Logan search data for Vivax grouped by order
 genomesFile genomes.Composite.txt
 email pks5769@psu.edu
