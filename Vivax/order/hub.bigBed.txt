@@ -1,0 +1,6 @@
+hub VivaxLoganSearchorderBigBed
+shortLabel Vivax: order BigBed
+longLabel Logan search data for Vivax grouped by order, BigBed
+genomesFile genomes.bigBed.txt
+email pks5769@psu.edu
+descriptionUrl https://raw.githubusercontent.com/Smeds/hubtrack/refs/heads/main//Vivax/order/description.html
